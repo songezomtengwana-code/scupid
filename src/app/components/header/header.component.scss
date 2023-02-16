@@ -1,0 +1,31 @@
+.header {
+  min-height: 70vh;
+  padding: 5rem 12rem;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+
+.header-container {
+  height: 100%;
+  position: relative;
+}
+
+.container-main {
+  position: absolute;
+  bottom: 6.5rem;
+  font-size: 7.5rem;
+  /* font-weight: bold; */
+  color: var(--herr);
+  pointer-events: none;
+}
+
+.container-watermark {
+  font-size: 15rem;
+  font-family: var(--herr);
+  color: #ffa9dc70;
+  pointer-events: none;
+
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "211e3-d42fe42-r4f42",
+    "name": "Songezo Mtengwana",
+    "email": "donlife@mapitsiliciousness.inc",
+    "password": "s43nd0nlif3",
+    "favorites": [],
+    "cart_state": []
+  },
+  {
+    "id": "211e3-d42fe42-r4f41",
+    "name": "Tsepang Maseti",
+    "email": "tsepang.maseti@younglings.africa",
+    "password": "masetitsepang",
+    "favourites": [],
+    "cart_state": []
+  },
+  {
+    "id": "211e3-d42fe42-r4f40",
+    "name": "Nozuko Mtotywa",
+    "email": "nozuko.mtotywa@younglings.africa",
+    "password": "mtotywanozuko",
+    "favourites": [],
+    "cart_state": []
+  },
+  {
+    "id": "211e3-d42fe42-r4f39",
+    "name": "Sipamandla Flekisi",
+    "email": "sipamandla.flekisi@younglings.africa",
+    "password": "flekisisipamandla",
+    "favourites": [],
+    "cart_state": []
+  }
+]

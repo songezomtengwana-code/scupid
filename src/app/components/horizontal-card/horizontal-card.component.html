@@ -1,0 +1,33 @@
+<div class="card" *ngIf="product" data-aos="zoom-in-right" data-aos-duration="1500">
+  <div class="card-container">
+    <div class="container-content">
+      <div class="content-name">{{ product.name }}</div>
+      <div class="content-shop">
+        <div class="shop-icon"><i class="bi bi-arrow-right-short"></i></div>
+        <div class="shop-text">{{ product.shop }}</div>
+      </div>
+      <div class="price">
+        {{ product.price }} ZAR
+      </div>
+      <a [href]="product.url">Shop At {{product.shop}}</a>
+    </div>
+    <div class="container-thumbnail">
+      <div class="thumbnail-container-image">
+        <div
+          class="thumbnail-container-image"
+          style="background-image: url({{product.image}}); min-height: 10vh; min-width: 10vh;"
+          *ngIf="product.image"
+        ></div>
+
+        <div
+          class="thumbnail-container-alternative"
+          *ngIf="product.image.length < 5"
+        >
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

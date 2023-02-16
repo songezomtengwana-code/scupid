@@ -1,0 +1,51 @@
+<div class="login">
+    <header class="login-header">
+      <div class="header-icon"></div>
+      <div class="header-title">Sign up</div>
+      <div class="header-subsection">Continue To Enhance Your Romance</div>
+    </header>
+    <div class="login-body">
+      <div class="body-inputs">
+        <input
+          type="email"
+          class="input"
+          [(ngModel)]="user.email"
+          required="true"
+        />
+        <label for="email" class="label">Enter Email</label>
+      </div>
+      <div class="body-inputs">
+        <input
+          type="password"
+          class="input"
+          [(ngModel)]="user.password"
+          required="true"
+        />
+        <label for="password" class="label">Enter Password</label>
+      </div>
+      <div class="checkbox">
+        <div class="checkbox-wrapper-31">
+          <input type="checkbox" />
+          <svg viewBox="0 0 35.6 35.6">
+            <circle class="background" cx="17.8" cy="17.8" r="17.8"></circle>
+            <circle class="stroke" cx="17.8" cy="17.8" r="14.37"></circle>
+            <polyline
+              class="check"
+              points="11.78 18.12 15.55 22.23 25.17 12.87"
+            ></polyline>
+          </svg>
+        </div>
+        <label for="remeber">remember me</label>
+      </div>
+      <div class="terms">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+        voluptatum, sed provident quidem, animi rerum, facere accusantium fuga
+        tempora eligendi earum nobis voluptas exercitationem amet ratione
+        consequatur! Quidem eaque neque ut cum.
+      </div>
+    </div>
+    <div class="login-button">
+      <cup-button> Log In </cup-button>
+    </div>
+  </div>
+  

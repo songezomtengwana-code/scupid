@@ -1,0 +1,104 @@
+.card {
+  min-width: 35vw;
+  min-height: 35vh;
+  height: fit-content;
+  padding: 2rem;
+  border: 2px solid transparent;
+  filter: drop-shadow(0px 0px 5px #00000025);
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  margin-left: 2.5rem;
+  flex-flow: column;
+  align-items: stretch;
+  height: 100%;
+  scroll-snap-type: mandatory;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.container-content {
+  min-width: 33.5%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  width: 65%;
+}
+
+.content-name {
+  font-size: 2.5rem;
+}
+
+.content-shop {
+  display: flex;
+  flex-flow: row;
+  gap: 0.5rem;
+  font-weight: bold;
+  color: var(--base-color);
+  /* filter: drop-shadow(0px 0px 5px #00000040); */
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 1s;
+  width: max-content;
+}
+
+.content-shop:hover {
+  transition: all 0.5s;
+  margin-left: 1rem;
+}
+
+.container-content a {
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  background: var(--base-color);
+  width: max-content;
+  border-radius: 2.5rem;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.container-content a:hover {
+  transition: all 0.75s;
+  transform: scale(1.1);
+}
+
+.container-thumbnail {
+  width: 45%;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
+
+.thumbnail-container-image {
+  width: 12.5vw;
+  height: 12.5vw;
+}
+
+.thumbnail-container-image {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-image- {
+  min-height: 10vh;
+  min-width: 10vh;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.price {
+  font-size: 2rem;
+  color: #000000;
+}

@@ -1,0 +1,81 @@
+.auth {
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  display: grid;
+  place-content: center;
+  padding: 0;
+}
+
+.auth-container.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.container-illustration {
+  width: 75vw;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  place-content: center;
+}
+
+.container-form {
+  width: 25vw;
+  background: white;
+  filter: drop-shadow(30px 0px 25px #00000075);
+}
+
+.illustration-gif {
+  height: 100vh;
+  width: 100%;
+  background: #ffffff50;
+  display: grid;
+  place-content: center;
+}
+
+.illustration-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff40;
+}
+
+.illustration-gif img {
+  height: 90vh;
+}
+
+.overlay-text {
+  position: relative;
+  font-size: 15rem;
+}
+
+.text-main {
+  font-family: var(--quicksand);
+  font-weight: 500;
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-weight: normal;
+  font-size: 27.5rem;
+  color: var(--base-color);
+}
+
+.text-watermark {
+  font-family: var(--quicksand);
+  font-weight: 500;
+  position: absolute;
+  top: 15vh;
+  left: 2vw;
+  filter: drop-shadow(0px 0px 25px #ffffff);
+  color: var(--secondary-color);
+}
+
+.container-form {
+  padding: 10rem 2.5rem;
+}

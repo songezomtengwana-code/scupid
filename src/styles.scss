@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Alumni+Sans:wght@200;300;600&family=Quicksand:wght@300;400;500;700&display=swap");
+
+@mixin scrollbars(
+  $size,
+  $foreground-color,
+  $background-color: mix($foreground-color, white, 50%)
+) {
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  // For Internet Explorer
+  & {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+:root {
+  --base-color: #ffa9dc;
+  --secondary-color: #b2b0f7;
+  --third-color: #dedffe;
+  --base-white: #ffffff;
+  --base-black: #000000;
+  --herr: "Herr Von Muellerhoff", cursive;
+  --quicksand: "Quicksand", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--quicksand);
+}
+
+body {
+  transition: all 1s;
+}

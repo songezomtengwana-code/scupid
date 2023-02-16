@@ -1,0 +1,138 @@
+[
+  {
+    "product_id": "2edx23d3-1r3d2-d3dx2c",
+    "image": "https://ibb.co/QKMqLQ8",
+    "name": "Gold and black bouquet",
+    "shop": "Shein",
+    "url": "https://za.shein.com/10pcs-Flower-Wrapping-Paper-p-6743437-cat-2472.html?url_from=adpla-za-pla-sh2110314181947861-one-size_GPM&cid=16897455740&setid=&adid=&pf=GOOGLE&gclid=Cj0KCQiAorKfBhC0ARIsAHDzslvLT56iKCza7HaEhvjzXk817VizOileb1H8cOObZL8yvF9NYlEAiMsaAiTAEALw_wcB",
+    "price": 73.95,
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ],
+    "tags": ["her", "flowers"]
+  },
+  {
+    "product_id": "2edx23d3-1r3d2-d3dx2c",
+    "name": "Gold and black bouquet",
+    "shop": "Shein",
+    "url": "https://za.shein.com/10pcs-Flower-Wrapping-Paper-p-6743437-cat-2472.html?url_from=adpla-za-pla-sh2110314181947861-one-size_GPM&cid=16897455740&setid=&adid=&pf=GOOGLE&gclid=Cj0KCQiAorKfBhC0ARIsAHDzslvLT56iKCza7HaEhvjzXk817VizOileb1H8cOObZL8yvF9NYlEAiMsaAiTAEALw_wcB",
+    "price": 73.95,
+    "tags": [],
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ]
+  },
+  {
+    "product_id": "2edx23d3-1r3d2-3d43c",
+    "name": "Candy Flower Bouquet",
+    "image": "https://ibb.co/60H54yx",
+    "shop": "Net Florist",
+    "url": "https://m.netflorist.co.za/shop/gifts/valentines-day/teddy-bears/for-her/teddy-bear-with-lindt-chocolate/",
+    "price": 59.95,
+    "tags": [],
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ]
+  },
+  {
+    "product_id": "2edx23d3-1r3d2-d4342d",
+    "name": "Oh So Heavenly Hamper",
+    "image": "https://ibb.co/xMYr6x3/heavenly.png",
+    "shop": "Takealot",
+    "url": "https://www.takealot.com/mum-gifts/PLID90537639",
+    "price": 639.99,
+    "tags": [],
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ]
+  },
+  {
+    "product_id": "2edx23d3-1r3d2-d3dx2c",
+    "name": "Sony Playstation 5",
+    "image": "https://i.ibb.co/c2bBfCq/sony.png",
+    "shop": "AVO Africa",
+    "url": "https://www.avo.africa/ecommerce/product-detail/2JG4-41G2?cmpid=par:goo:dfl:deals::ned&gclid=Cj0KCQiAorKfBhC0ARIsAHDzsltERnVwbRbiS_K_LmaURWlssS6rzAtaALuzTVPqse0g4ntE94ZhMaoaAltlEALw_wcB&gclsrc=aw.ds",
+    "price": 15899.90,
+    "tags": [],
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ]
+  },
+  {
+    "product_id": "2edx23d3-1r3d2-d3dx2c",
+    "name": "Adidas x Ferrero Rocher",
+    "image": "https://ibb.co/8Dx67fh",
+    "shop": "Takealot",
+    "url": "https://www.takealot.com/valentine-s-gifts-treats-for-him/PLID90064926",
+    "price": 599.90,
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ]
+  }
+]

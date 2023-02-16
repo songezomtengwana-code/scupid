@@ -1,18 +1,55 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { ShopModule } from './shop/shop.module';
+import { AuthModule } from './auth/auth.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ShopComponent } from './shop/shop.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AuthComponent } from './auth/auth.component';
+import { LoginComponent } from './auth/login/login.component';
+import { SignupComponent } from './auth/signup/signup.component';
+import { InputComponent } from './components/input/input.component';
+import { ButtonComponent } from './components/button/button.component';
+import { NavComponent } from './components/nav/nav.component';
+import { HeaderComponent } from './components/header/header.component';
+import { EventsComponent } from './pages/events/events.component';
+import { GiftsComponent } from './pages/gifts/gifts.component';
+import { VeticalCardComponent } from './components/vetical-card/vetical-card.component';
+import { HorizontalCardComponent } from './components/horizontal-card/horizontal-card.component';
+import { SectionComponent } from './components/section/section.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShopComponent,
+    AuthComponent,
+    LoginComponent,
+    SignupComponent,
+    InputComponent,
+    ButtonComponent,
+    NavComponent,
+    HeaderComponent,
+    EventsComponent,
+    GiftsComponent,
+    VeticalCardComponent,
+    HorizontalCardComponent,
+    SectionComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // ShopModule,
+    // AuthModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    HttpClientJsonpModule,
+    FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
