@@ -41,6 +41,7 @@ header.sections-header {
   font-size: 2.5rem;
   font-weight: 500;
   pointer-events: none;
+  text-transform: capitalize;
 }
 
 .section-header-tags {
@@ -48,6 +49,9 @@ header.sections-header {
   flex-flow: row;
   gap: 1.5rem;
   padding: 1em 0;
+  width: max-content;
+  margin-right: 2rem;
+  flex-wrap: wrap;
 }
 
 .tag {
@@ -75,10 +79,66 @@ section.section-scroll {
 .scroll-card {
   scroll-snap-type: x mandatory;
   display: flex;
-  flex-flow: row;
+  flex-flow: wrap;
+  justify-content: space-around;
   width: calc(100vw - 24em);
   overflow: hidden;
   overflow-x: scroll;
   padding: 1rem 0;
+  gap: 2rem 0;
   @include scrollbars(10px, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.options {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.search {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 1rem 0;
+}
+
+input.search-input {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  border: 2px solid var(--base-color);
+  border-radius: 5rem;
+  outline: none;
+  background: rgba($color: var(--base-color), $alpha: .5);
+  min-width: 15vw;
+  transition: all ease-in 1s;
+}
+
+
+.search-input:hover, .search-input:hover {
+  background-color: white;
+  transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .75s;
+}
+
+.search-button {
+  display: none !important;
+  height: 36px;
+  width: 36px;
+  padding: 0.5rem 0.65rem;
+  background: var(--secondary-color);
+  border-radius: 2rem;
+  line-height: -1;
+  position: absolute;
+  right: 0px;
+  display: grid;
+  place-content: center;
+  outline: none;
+  transition: all 1s;
+  cursor: pointer;
+
+}
+
+.search-button:hover {
+  width: 47.5px;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .75s;
 }

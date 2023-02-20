@@ -1,0 +1,43 @@
+<header class="sections-header">
+  <div class="section-header-title" data-aos="zoom-out-up">
+    {{ rowTitle }}
+  </div>
+  <div class="section-header-options">
+    <button
+      class="primary"
+      type="button btn"
+      (click)="isCollapsed = !isCollapsed"
+      [attr.aria-expanded]="!isCollapsed"
+      aria-controls="collapseExample"
+    >
+      {{ rowTitle }}
+      <i class="bi bi-caret-right-fill"></i>
+    </button>
+    <div
+      #collapse="ngbCollapse"
+      [(ngbCollapse)]="isCollapsed"
+      [horizontal]="true"
+    >
+      <div class="card">
+        <div class="card-body">
+          <main>
+            <div class="tags">
+              <div
+                class="tag"
+                *ngFor="let tag of tags"
+                (click)="handleActiveTag(tag)"
+              >
+                <main
+                  (click)="isCollapsed = !isCollapsed"
+                  [attr.aria-expanded]="!isCollapsed"
+                >
+                  {{ tag.name }}
+                </main>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

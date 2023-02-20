@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./gifts.component.scss']
 })
 export class GiftsComponent {
+  
 
 }

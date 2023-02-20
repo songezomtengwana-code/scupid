@@ -1,1 +1,9 @@
-<p>events works!</p>
+<cup-header title="Events"></cup-header>
+<main class="section">
+  <cup-title-tag [tags]="tags" [rowTitle]="tags[0].name"></cup-title-tag>
+  <div class="list">
+    <div class="list-section">
+        <app-vetical-card *ngFor="let event of events" [event]="event"></app-vetical-card>
+    </div>
+  </div>
+</main>

@@ -5,6 +5,9 @@ export class PRODUCT {
     image!: string
     shop!: string
     url!:string
-    price!: string
+    price!: number
     sizes!: SIZE[] 
+    tags!: string[]
+    discount!: number
+    discount_shown!: true
 }

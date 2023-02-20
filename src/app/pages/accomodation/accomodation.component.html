@@ -1,0 +1,64 @@
+<cup-header title="Accommodation"></cup-header>
+<main class="section">
+  <header class="sections-header">
+    <div class="section-header-options">
+      <button
+        class="primary"
+        type="button btn"
+        (click)="isCollapsed = !isCollapsed"
+        [attr.aria-expanded]="!isCollapsed"
+        aria-controls="collapseExample"
+      >
+        {{ rowTitle }}
+        <i class="bi bi-caret-right-fill"></i>
+      </button>
+      <div
+        #collapse="ngbCollapse"
+        [(ngbCollapse)]="isCollapsed"
+        [horizontal]="true"
+      >
+        <div class="card">
+          <div class="card-body">
+            <main>
+              <div class="tags">
+                <div
+                  class="tags-tag"
+                  *ngFor="let tag of tags"
+                  (click)="handleActiveTag(tag)"
+                >
+                  <main
+                    (click)="isCollapsed = !isCollapsed"
+                    [attr.aria-expanded]="!isCollapsed"
+                  >
+                    {{ tag.name }}
+                  </main>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="list" *ngIf="restTag === true">
+    <div class="list-section-title">Restaurants</div>
+    <div class="list-section">
+      <app-vetical-card
+        *ngFor="let accommodation of accommodations"
+        [accommodation]="accommodation"
+      ></app-vetical-card>
+      <div class="hotels"></div>
+    </div>
+  </div>
+  <div class="list" *ngIf="hotelTag === true">
+    <div class="list-section-title">Hotels</div>
+    <div class="list-section">
+      <app-vetical-card
+        *ngFor="let hotel of hotels"
+        [hotel]="hotel"
+      ></app-vetical-card>
+      <div class="hotels"></div>
+    </div>
+  </div>
+</main>

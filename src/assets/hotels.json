@@ -1,0 +1,39 @@
+[
+  {
+    "location": "Cape Town",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/326888700.jpg?k=6b12dd7fc73f82ea2fe96586d667635de350814f3a33e842f4eb8b635b938990&o=&hp=1",
+    "name": "Urban Oasis Aparthotel",
+    "description": "Accommodation is fitted with air conditioning, a fully equipped kitchen with a dining area, a flat-screen TV and a private bathroom with shower, free toiletries and a hairdryer. A fridge, an oven and microwave are also featured, as well as a kettle. The daily breakfast offers à la carte, continental or Full English/Irish options.",
+    "rate": 5,
+    "url": "https://urbanoasis.co.za",
+    "base_color": "#61CEB6",
+    "important_links": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/urbanoasisofficial",
+        "icon": "facebook"
+      }
+    ]
+  },
+  {
+    "location": "Cape Town",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/219374947.jpg?k=e503da1e77b2728ab81e4c36b93e280f15e96a7fe2dffb1ff2c7bbccfb316020&o=&hp=1",
+    "name": "3 On Camps Bay",
+    "description": "You're eligible for a Genius discount at 3 On Camps Bay! To save at this property, all you have to do is sign in. With an outdoor plunge pool overlooking the rocky Atlantic coast of Camps Bay, 3 on Camps Bay features free private parking. Rooms have balconies and free Wi-Fi.",
+    "rate": 5,
+    "url": "https://3oncampsbay.com",
+    "base_color": "#000000",
+    "important_links": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/3onCampsBay",
+        "icon": "facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/3oncampsbay",
+        "icon": "twitter"
+      }
+    ]
+  }
+]

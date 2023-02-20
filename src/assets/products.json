@@ -6,6 +6,7 @@
     "shop": "Shein",
     "url": "https://za.shein.com/10pcs-Flower-Wrapping-Paper-p-6743437-cat-2472.html?url_from=adpla-za-pla-sh2110314181947861-one-size_GPM&cid=16897455740&setid=&adid=&pf=GOOGLE&gclid=Cj0KCQiAorKfBhC0ARIsAHDzslvLT56iKCza7HaEhvjzXk817VizOileb1H8cOObZL8yvF9NYlEAiMsaAiTAEALw_wcB",
     "price": 73.95,
+    "status": true,
     "sizes": [
       {
         "size": "small",
@@ -20,6 +21,8 @@
         "isAvailable": false
       }
     ],
+    "discount": 0,
+    "discount_shown": false,
     "tags": ["her", "flowers"]
   },
   {
@@ -29,7 +32,7 @@
     "shop": "Net Florist",
     "url": "https://m.netflorist.co.za/shop/gifts/valentines-day/teddy-bears/for-her/teddy-bear-with-lindt-chocolate/",
     "price": 59.95,
-    "tags": [],
+    "status": true,
     "sizes": [
       {
         "size": "small",
@@ -43,7 +46,10 @@
         "size": "large",
         "isAvailable": false
       }
-    ]
+    ],
+    "tags": ["mostly ordered"],
+    "discount": 0,
+    "discount_shown": false
   },
   {
     "product_id": "2edx23d3-1r3d2-d4342d",
@@ -52,7 +58,7 @@
     "shop": "Takealot",
     "url": "https://www.takealot.com/mum-gifts/PLID90537639",
     "price": 639.99,
-    "tags": [],
+    "status": true,
     "sizes": [
       {
         "size": "small",
@@ -66,7 +72,10 @@
         "size": "large",
         "isAvailable": false
       }
-    ]
+    ],
+    "tags": ["her"],
+    "discount": 0,
+    "discount_shown": false
   },
   {
     "product_id": "2edx23d3-1r3d2-d3dx2c",
@@ -74,8 +83,8 @@
     "image": "https://i.ibb.co/c2bBfCq/sony.png",
     "shop": "AVO Africa",
     "url": "https://www.avo.africa/ecommerce/product-detail/2JG4-41G2?cmpid=par:goo:dfl:deals::ned&gclid=Cj0KCQiAorKfBhC0ARIsAHDzsltERnVwbRbiS_K_LmaURWlssS6rzAtaALuzTVPqse0g4ntE94ZhMaoaAltlEALw_wcB&gclsrc=aw.ds",
-    "price": 15899.90,
-    "tags": [],
+    "price": 15899.95,
+    "status": true,
     "sizes": [
       {
         "size": "small",
@@ -89,7 +98,10 @@
         "size": "large",
         "isAvailable": false
       }
-    ]
+    ],
+    "tags": ["him", "her"],
+    "discount": 799.00,
+    "discount_shown": true
   },
   {
     "product_id": "2edx23d3-1r3d2-d3dx2c",
@@ -97,7 +109,8 @@
     "image": "https://i.ibb.co/gMWzRfn/adidasxferrero.png",
     "shop": "Takealot",
     "url": "https://www.takealot.com/valentine-s-gifts-treats-for-him/PLID90064926",
-    "price": 599.90,
+    "price": 599.9,
+    "status": true,
     "sizes": [
       {
         "size": "small",
@@ -111,6 +124,191 @@
         "size": "large",
         "isAvailable": false
       }
-    ]
+    ],
+    "tags": ["him"],
+    "discount": 0,
+    "discount_shown": false
+  },
+  {
+    "product_id": "MPTAL57565168",
+    "name": "AB Wheel - Total Body Exerciser",
+    "image": "http://takealot.s3.amazonaws.com/covers_tsins/57565168/57565168-1.jpeg",
+    "shop": "Takealot",
+    "url": "https://www.takealot.com/x/PLID54531533",
+    "price": 278.0,
+    "status": false,
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ],
+    "tags": ["him"],
+    "discount": 0,
+    "discount_shown": false
+  },
+  {
+    "product_id": "MPTAL00185165",
+    "name": "Professional Manicure Pedicure",
+    "image": "http://takealot.s3.amazonaws.com/covers_tsins/44922427/44922427-1.jpg",
+    "shop": "Takealot",
+    "url": "https://www.takealot.com/valentine-s-gifts-treats-for-him/PLID90064926",
+    "price": 349.00,
+    "status": true,
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ],
+    "tags": ["her"],
+    "discount": 120,
+    "discount_shown": true
+  },
+  {
+    "product_id": "HQ-271",
+    "name": "Rechargeable Professional Hair Clipper",
+    "image": "http://takealot.s3.amazonaws.com/covers_tsins/56592195/56592195-2.jpg",
+    "shop": "Takealot",
+    "url": "https://www.takealot.com/x/PLID53598012",
+    "price": 499.90,
+    "status": false,
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ],
+    "tags": ["her"],
+    "discount": 150.00,
+    "discount_shown": true
+  },
+  {
+    "product_id": "MPTAL00651626",
+    "name": "Nail Lamp Dryer",
+    "image": "http://takealot.s3.amazonaws.com/covers_tsins/56552363/MPTAL00651626-1.jpg",
+    "shop": "Takealot",
+    "url": "https://www.takealot.com/x/PLID53561331",
+    "price": 300.00,
+    "status": false,
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ],
+    "tags": ["her"],
+    "discount": 150.00,
+    "discount_shown": true
+  },
+  {
+    "product_id": "MPTAL0065112e",
+    "name": "Preserved Real Rose With Love You Necklace",
+    "image": "https://img.fruugo.com/product/2/33/483686332_max.jpg",
+    "shop": "Fruugo",
+    "url": "https://www.fruugo.co.za/preserved-real-rose-with-love-you-necklace-in-100-languages-gift-set-enchanted-real-rose-flower-for-valentines-day-anniversary-wedding-bthday-romant/p-109263248-230523194?language=en&ac=google&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF-ptVS01zgK4oKt1-xiFhyQM1e0NUWDgZcoFi7sdN2IUr_4pwkg1bkaAhPcEALw_wcB",
+    "price": 649.00,
+    "status": true,
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ],
+    "tags": ["her"],
+    "discount": 480.00,
+    "discount_shown": true
+  },
+  {
+    "product_id": "MPTAL0061r32e",
+    "name": "Golden Rose 24K",
+    "image": "https://i.ibb.co/7KFSRD3/760140671363-removebg-preview.png",
+    "shop": "Romace South Africa",
+    "url": "https://romancesouthafrica.com/products/valentines-day-gift-golden-rose-24k-golden-foil-rose-bundle?variant=44225337590057&currency=ZAR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+    "price": 1360.00,
+    "status": true,
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ],
+    "tags": ["her"],
+    "discount": 160.00,
+    "discount_shown": true
+  },
+  {
+    "product_id": "MPTAL12e1r32e",
+    "name": "High Value Accessories Set",
+    "image": "https://cdn.shopify.com/s/files/1/0699/8786/0777/products/148647048324006.jpg?v=1673717636&width=823",
+    "shop": "Romace South Africa",
+    "url": "https://romancesouthafrica.com/products/high-value-watch-set",
+    "price": 735.00,
+    "status": true,
+    "sizes": [
+      {
+        "size": "small",
+        "isAvailable": true
+      },
+      {
+        "size": "Medium",
+        "isAvailable": false
+      },
+      {
+        "size": "large",
+        "isAvailable": false
+      }
+    ],
+    "tags": ["her"],
+    "discount": 0,
+    "discount_shown": false
   }
 ]

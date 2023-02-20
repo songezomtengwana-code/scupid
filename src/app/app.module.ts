@@ -22,6 +22,16 @@ import { VeticalCardComponent } from './components/vetical-card/vetical-card.com
 import { HorizontalCardComponent } from './components/horizontal-card/horizontal-card.component';
 import { SectionComponent } from './components/section/section.component';
 
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatChipsModule } from '@angular/material/chips';
+import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+ 
+import { GiftFilterPipe } from './pipes/gift-filter.pipe';
+import { TitleTagComponent } from './components/title-tag/title-tag.component';
+import { AccomodationComponent } from './pages/accomodation/accomodation.component';
+import { BurgerComponent } from './components/burger/burger.component'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +48,10 @@ import { SectionComponent } from './components/section/section.component';
     VeticalCardComponent,
     HorizontalCardComponent,
     SectionComponent,
+    // GiftFilterPipe,s
+    TitleTagComponent,
+    AccomodationComponent,
+    BurgerComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +61,11 @@ import { SectionComponent } from './components/section/section.component';
     BrowserAnimationsModule,
     HttpClientModule,
     HttpClientJsonpModule,
-    FormsModule
+    FormsModule,
+    MatPaginatorModule,
+    MatProgressSpinnerModule,
+    MatChipsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent],

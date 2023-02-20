@@ -12,17 +12,15 @@ export class HorizontalCardComponent implements OnInit {
   @Input() product?:PRODUCT;
   private readonly base_url: string = 'assets/products.json'
   _products: any;
+  tagCred: any;
+
   constructor(private http: HttpService, private httpClient: HttpClient) {}
+
   ngOnInit(): void {
-    console.log({ success: this.products });
     this.getProducts();
   }
 
   getProducts() {
-    // this.http.get('products').subscribe((res) => {
-    //   this._products = res;
-    // });
-
     this.httpClient.get(this.base_url).subscribe(response => {
       this._products = response
     })
@@ -31,4 +29,9 @@ export class HorizontalCardComponent implements OnInit {
   get products(): PRODUCT[] {
     return this._products;
   }
+
+  handleFilterByTag(tag: string) {
+    return this.tagCred = tag 
+  }
+
 }

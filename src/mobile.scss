@@ -1,0 +1,203 @@
+@media (max-width: 1024px) {
+  .nav-container {
+    position: relative;
+    /* padding: 2rem 0; */
+    flex-flow: column !important;
+    gap: 0.5rem !important;
+    min-width: unset !important;
+  }
+
+  .container-links {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--base-color);
+    animation-fill-mode: forwards;
+    flex-flow: column !important;
+    justify-content: flex-start !important;
+    display: none !important;
+  }
+
+  .brand-text {
+    font-size: 1.25rem !important;
+  }
+
+  .header-container {
+    font-size: 1rem !important;
+    display: grid;
+    place-content: center;
+  }
+
+  .header {
+    padding: unset !important;
+    overflow: hidden;
+    align-items: center !important;
+    min-height: 40vh !important;
+    margin-bottom: 2.5rem;
+  }
+
+  .container-main {
+    font-size: 5rem !important;
+    left: 20.5%;
+    display: none;
+  }
+
+  .container-watermark {
+    color: var(--base-color) !important;
+  }
+
+  .section {
+    padding: 2em 0em !important;
+  }
+
+  .options {
+    flex-flow: column !important;
+    overflow: hidden;
+  }
+
+  .section-header-tags {
+    flex-wrap: wrap !important;
+    flex-flow: wrap !important;
+    overflow-x: scroll;
+    display: none !important;
+  }
+
+  .vertical-card {
+    flex-flow: column !important;
+    max-height: fit-content !important;
+  }
+
+  span.brand-icon {
+    image-rendering: optimizespeed;
+    width: 5vh !important;
+  }
+
+  .button-button {
+    height: 3.5vh !important;
+    width: 3.5vh !important;
+    font-size: 0.75rem !important;
+    color: white !important;
+  }
+
+  .nav {
+    padding: 1.5rem 0 !important;
+  }
+
+  .container-brand {
+    overflow: hidden;
+    height: 5vh;
+    transition: all 1s;
+  }
+
+  .container-brand-active {
+    height: 0vh;
+    transition: all 0.75s;
+  }
+
+  .container-watermark {
+    font-size: 4.5rem !important;
+    text-align: center;
+    width: 100%;
+  }
+
+  .accommodation-left-image img {
+    height: 25vh !important;
+  }
+
+  .accommodation-left-image.accommodation-image {
+    min-width: unset !important;
+  }
+
+  .accommodation-right {
+    align-items: center;
+    padding: 1rem;
+    text-align: center !important;
+  }
+
+  .accommodation-title.accommodation-title {
+    font-size: 1.75rem !important;
+    font-weight: bold !important;
+  }
+
+  .section-header-title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .search {
+    padding: 1rem 1rem !important;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .search-button {
+    display: none !important;
+  }
+
+  input.search-input {
+    width: 100%;
+    border: 2px solid #ffe0f2 !important;
+    background: #ffa9dc2e !important;
+    padding-right: 1rem !important;
+  }
+
+  a#button {
+    color: black;
+  }
+
+  //   #region GIFTS
+  .scroll-card {
+    width: 100vw !important;
+    padding: 0.5rem !important;
+    flex-flow: column !important;
+    align-items: center;
+  }
+
+  .card {
+    width: 90vw !important;
+    margin: unset !important;
+    padding: 1rem !important;
+  }
+
+  .card-container {
+    width: 100% !important;
+    display: flex;
+    flex-flow: column !important;
+  }
+
+  .card-container {
+    display: flex;
+    flex-flow: column-reverse !important;
+    width: max-content;
+  }
+
+  .container-thumbnail {
+    width: 250px !important;
+    height: 250px;
+  }
+
+  .thumbnail-container-image {
+    height: 225px !important;
+    width: 250px !important;
+  }
+
+  .container-content {
+    width: 100% !important;
+    align-items: center;
+    text-align: center !important;
+  }
+
+  .container-discount-badge {
+    top: -1rem !important;
+    right: 0rem !important;
+    transform: unset !important;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 1.25rem !important;
+  }
+
+  .shop-icon {
+    display: none;
+  }
+}

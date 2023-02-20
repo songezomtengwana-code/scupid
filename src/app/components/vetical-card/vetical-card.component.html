@@ -1,1 +1,136 @@
-<p>vetical-card works!</p>
+<div
+  class="vertical event"
+  *ngIf="event"
+  data-aos="zoom-in"
+  data-aos-duration="1250"
+>
+  <div class="vertical-card">
+    <div class="card-left-image">
+      <img [src]="event.image" alt="" srcset="" />
+    </div>
+    <div class="card-left-content">
+      <div class="content-title">
+        {{ event.title }}
+      </div>
+      <div class="content-important">
+        <div class="important-info">
+          <i class="bi bi-geo-fill"></i> {{ event.location }}
+        </div>
+        <div class="important-info" *ngIf="event.cost > 0; else freeEntry">
+          <i class="bi bi-door-open-fill"></i> {{ event.cost }} ZAR
+        </div>
+        <ng-template #freeEntry>
+          <div class="important-info">
+            <i class="bi bi-door-open-fill"></i> Free Entry
+          </div>
+        </ng-template>
+      </div>
+      <main class="cluster">
+        <div class="content-description">
+          {{ event.description }}
+        </div>
+        <div class="content-route">
+          <a [href]="event.url" class="content-route-a"
+            >more information</a
+          >
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+
+<div
+  class="vertical event"
+  *ngIf="accommodation"
+  data-aos="zoom-in"
+  data-aos-duration="1250"
+>
+  <div class="vertical-card">
+    <div class="accommodation-left">
+      <div class="accommodation-left-image accommodation-image">
+        <img [src]="accommodation.image" alt="" srcset="" />
+      </div>
+    </div>
+    <div class="accommodation-right">
+      <div class="accommodation-title accommodation-title">
+        {{ accommodation.name }}
+      </div>
+      <div class="accommodation-description">
+        {{ accommodation.description }}
+      </div>
+      <div class="rating">
+        <ngb-rating [max]="5" [(rate)]="starRating"></ngb-rating>
+      </div>
+      <div class="buttons">
+        <div class="buttons-social">
+          <div
+            class="social"
+            *ngFor="let social of accommodation.important_links"
+            [ngStyle]="{ background: accommodation.base_color }"
+          >
+            <a [href]="social.url" class="social-link">
+              <i class="bi bi-{{ social.name }}"></i>
+            </a>
+          </div>
+        </div>
+        <div
+          class="buttons-website"
+          [ngStyle]="{ background: accommodation.base_color }"
+        >
+          <a [href]="accommodation.url" class="website-button">
+            visit website <span class="button-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div
+  class="vertical event"
+  *ngIf="hotel"
+  data-aos="zoom-in"
+  data-aos-duration="1250"
+>
+  <div class="vertical-card">
+    <div class="accommodation-left">
+      <div class="accommodation-left-image accommodation-image">
+        <img [src]="hotel.image" alt="" srcset="" />
+      </div>
+    </div>
+    <div class="accommodation-right">
+      <div class="accommodation-title accommodation-title">
+        {{ hotel.name }}
+      </div>
+      <div class="accommodation-description">
+        {{ hotel.description }}
+      </div>
+      <div class="rating">
+        <ngb-rating [max]="5" [(rate)]="starRating"></ngb-rating>
+      </div>
+      <div class="buttons">
+        <div class="buttons-social">
+          <div
+            class="social"
+            *ngFor="let social of hotel.important_links"
+            [ngStyle]="{ background: hotel.base_color }"
+          >
+            <a [href]="social.url" class="social-link">
+              <i class="bi bi-{{ social.name }}"></i>
+            </a>
+          </div>
+        </div>
+        <div
+          class="buttons-website"
+          [ngStyle]="{ background: hotel.base_color }"
+        >
+          <a [href]="hotel.url" class="website-button">
+            visit website <span class="button-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

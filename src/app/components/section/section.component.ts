@@ -2,6 +2,12 @@ import { Component, Input } from '@angular/core';
 import { HttpService } from '../../services/http.service';
 import { PRODUCT } from '../../models/product/product.model';
 import { HttpClient } from '@angular/common/http';
+import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
+
+class tagModel {
+  name!: string;
+  status!: boolean;
+}
 
 @Component({
   selector: 'cup-section',
@@ -9,41 +15,67 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./section.component.scss'],
 })
 export class SectionComponent {
-  @Input()
-  rowTitle: string = 'Placeholder TItle';
-  @Input() tags: string[] = [
-    'Most Ordered',
-    'Her',
-    'Him',
-    'Candy',
-    'Game Consoles',
-    'Accessories',
-    'Flowers',
+  searchValue: any;
+  tags: any[] = [
+    { name: 'All', status: false },
+    { name: 'Discounts', status: false },
+    { name: 'Her', status: false },
+    { name: 'Him', status: false },
+    { name: 'Accessories', status: false },
+    { name: 'Flowers', status: false },
   ];
-
+  rowTitle: string = this.tags[0].name;
+  tagFilterCredential: any;
   private readonly base_url: string = 'assets/products.json';
   _products: any;
-  constructor(private http: HttpService, private httpClient: HttpClient) {}
+
+  /**
+   * App Constructor
+   * @param http
+   * @param httpClient
+   * @param fb
+   */
+  constructor(
+    private http: HttpService,
+    private httpClient: HttpClient,
+    private fb: FormBuilder
+  ) {}
   ngOnInit(): void {
-    console.log({ success: this.products });
     this.getProducts();
   }
 
+  /**
+   * @desc http get request to local json file
+   */
   getProducts() {
-    // this.http.get('products').subscribe((res) => {
-    //   this._products = res;
-    // });
-
     this.httpClient.get(this.base_url).subscribe((response) => {
       this._products = response;
     });
   }
-
   get products(): PRODUCT[] {
     return this._products;
   }
 
-  handleFilterByTag(tag: string) {
-    return (this.rowTitle = tag);
+  /**
+   * @desc filter gift by tag selection
+   * @param tag
+   */
+  async filterByTag(tag: tagModel) {
+    this.tagFilterCredential = tag;
+    this.tags.forEach((res) => {
+      if (res.name == tag.name) {
+        res.status = !tag.status;
+      }
+    });
+  }
+
+  /**
+   * @desc parses the search value
+   * @returns clean input
+   */
+  searchValueParser() {
+    const searchQuery = this.searchValue.toLowerCase();
+    console.log({ searching_for: searchQuery });
+    return (this.searchValue = '');
   }
 }

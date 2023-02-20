@@ -1,17 +1,13 @@
 <div class="section">
-    <header class="sections-header">
-        <div class="section-header-title" data-aos="zoom-out-up">
-        {{ rowTitle }}
-        </div>
-        <div class="section-header-tags" *ngIf="tags.length > 0">
-            <div class="tag" *ngFor="let tag of tags" (click)="handleFilterByTag(tag)" data-aos="zoom-out-up">
-                {{ tag }}
-            </div>
-        </div>
-    </header>
-    <section class="section-scroll">
-        <div class="scroll-card">
-            <cup-horizontal-card [product]="product" *ngFor="let product of products"></cup-horizontal-card>
-        </div>
-    </section>
+  <cup-title-tag [tags]="tags" [rowTitle]="tags[0].name"></cup-title-tag>
+  <section class="section-scroll">
+    <div class="scroll-card">
+      <main class="scroll-card">
+        <cup-horizontal-card
+          [product]="product"
+          *ngFor="let product of products"
+        ></cup-horizontal-card>
+      </main>
+    </div>
+  </section>
 </div>
