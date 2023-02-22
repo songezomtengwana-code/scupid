@@ -1,0 +1,39 @@
+<div class="movie" (click)="toggleHover()">
+  <div class="movie-image">
+    <img [src]="movie.image" [alt]="movie.title" />
+    <section class="movie-background" class="hover"style="background-image: url({{ movie.background }});">
+      <main class="overlay">
+        <div class="close-hover bi bi-x" (click)="toggleHover()"></div>
+        <div class="hover-header">
+          <i
+            class="bi bi-heart"
+            (click)="addToFavorites()"
+            *ngIf="favStatus === false"
+          ></i>
+          <i
+            class="bi bi-heart-fill"
+            (click)="addToFavorites()"
+            *ngIf="favStatus === true"
+          ></i>
+        </div>
+        <div class="hover-title">
+          {{ movie.title }}
+        </div>
+        <div class="hover-more">
+          <div class="more-rate">
+            {{ movie.rate }}
+          </div>
+          <div class="more-duration">
+            {{ movie.duration }}
+          </div>
+          
+        </div><div class="description">
+            {{ movie.description }}
+          </div>
+      </main>
+    </section>
+  </div>
+  <div class="movie-name">
+    {{ movie.title }}
+  </div>
+</div>

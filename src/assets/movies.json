@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Norbit",
+    "background": "https://amblin.com/wp-content/uploads/2020/06/norbit_2007_photo_hero.jpg",
+    "image": "https://amc-theatres-res.cloudinary.com/v1579118458/amc-cdn/production/2/movies/11800/11754/Poster/p_800x1200_AMC_NORBIT_08092019.jpg",
+    "description": "A mild-mannered guy, who is married to a monstrous woman, meets the woman of his dreams, and schemes to find a way to be with her",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt0477051/?ref_=nv_sr_srsg_0"
+  },
+
+  {
+    "title": "Friends with Benefits",
+    "background": "https://ksassets.timeincuk.net/wp/uploads/sites/55/2011/09/FreindsWithBenefitsPR070911-3.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUz_FVMsxegR4EoXTkUM6PhUumrj5FZBjz3Zb87TTyLyosvctl",
+    "description": "A young man and woman decide to take their friendship to the next level without becoming a couple, but soon discover that adding sex only leads to complications.",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt1632708/?ref_=nv_sr_srsg_3"
+  },
+
+  {
+    "title": "Somebody I Used to Know",
+    "background": "https://i.guim.co.uk/img/media/4f917efb977bb9e83554d366ddc23f482674c9a4/0_100_3000_1801/master/3000.jpg?width=465&quality=85&dpr=1&s=none",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSuKXfwQIDVmKyg6dr0PgLMpNKLZr6oL5XaVsNVgP7_7QuncfAG",
+    "description": "On a trip to her hometown, workaholic Ally reminisces with her ex Sean and starts to question everything about the person she's become. Things only get more confusing when she meets Cassidy, who reminds her of the person she used to be.",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt15333984/?ref_=adv_li_tt"
+  },
+
+  {
+    "title": "You People",
+    "background": "https://ntvb.tmsimg.com/assets/p23583947_v_h8_aa.jpg?w=1280&h=720",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrYDCeSsXWUlGA10mGBMJ9uW-h11qtZtA2khMumH7XQSt476av",
+    "description": "Follows a new couple and their families, who find themselves examining modern love and family dynamics amidst clashing cultures, societal expectations and generational differences",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt14826022/?ref_=fn_al_tt_5"
+  },
+
+  {
+    "title": "Midnight Sun",
+    "background": "https://www.gannett-cdn.com/-mm-/472bfde617167dbdd23ff0a326288f3f94107ce7/c=249-0-3000-1554/local/-/media/2018/03/22/DetroitNews/B99641658Z.1_20180322182624_000_GG01U0S0Q.2-0.jpg",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTh2Um10qxnru-5EBkumT-xGhTRWU7G4tJNivfzUh9CHUJNWHW",
+    "description": "A 17-year-old girl suffers from a condition that prevents her from being out in the sunlight.",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt4799066/?ref_=nv_sr_srsg_0"
+  },
+
+  {
+    "title": "Me Before You",
+    "background": "https://variety.com/wp-content/uploads/2016/05/me-before-you-2.jpg",
+    "image": "http://www.movienewsletters.net/photos/191384R1.jpg",
+    "description": "A girl in a small town forms an unlikely bond with a recently-paralyzed man she's taking care of.",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt2674426/?ref_=tt_sims_tt_i_10"
+  },
+
+  {
+    "title": "365 Days",
+    "background": "https://occ-0-116-33.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUI0milkCN6Rwo9T0Y-egbpiayrdZUlcE14lLZtgf2GjZbCzjWWUN4d6WV8JeTagrwSyXldt5dZ3UvnYluPNqQgaL2KbDvzTzecs.jpg?r=798",
+    "image": "https://m.media-amazon.com/images/M/MV5BN2M2ZmZlN2EtZjgyNy00ZDVkLTkwMzAtMDM2ZDE0N2JhMTUxXkEyXkFqcGdeQXVyOTExNDcyMjU@._V1_UY100_CR85,0,100,100_AL_.jpg",
+    "description": "Massimo is a member of the Sicilian Mafia family and Laura is a sales director. She does not expect that on a trip to Sicily trying to save her relationship, Massimo will kidnap her and give her 365 days to fall in love with him.",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt10886166/?ref_=nv_sr_srsg_2"
+  },
+  {
+    "title": "Everything, Everything",
+    "background": "https://m.media-amazon.com/images/M/MV5BMTU5ODEzNTI4N15BMl5BanBnXkFtZTgwODU1MTQzMjI@._V1_.jpg",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRqUL6jBHMpShSyRp_HXilOyvkXP8WuFwTmCOm5FH-W2M3tTfrk",
+    "description": "A teenager who's spent her whole life confined to her home falls for the boy next door.",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt5001718/?ref_=tt_sims_tt_i_2"
+  },
+
+  {
+    "title": "Addicted",
+    "background": "https://www.hollywoodreporter.com/wp-content/uploads/2014/10/addicted_still.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2nO4kJLKwecj0lJcr-xNjmCm2JNvAS3wXSaCNByijEuZtnat5",
+    "description": "A gallerist risks her family and flourishing career when she enters into an affair with a talented painter and slowly loses control of her life.",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt2205401/?ref_=nv_sr_srsg_0"
+  },
+
+  {
+    "title": "Amar",
+    "background": "https://occ-0-34-56.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVjES6Q7S-ZUR_JPRBGRAcitgqaGU7HiwDtEpRHJc2U5q1hm6IPEYNAZSZmT16_hZ6ZzDt1eOL4sX4Am5lEdXyEs8w3Z7CSK9Mbi.jpg?r=b2f",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSyEaq0Hj-aGIL9xLg_8VC4kbiYMg0MO_fHofCODX3vLN0rVORA",
+    "description": "Laura and Carlos love each other as if every day was the last, and perhaps that first love intensity is what will tear them apart a year later.",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt5479616/?ref_=tt_sims_tt_i_3"
+  },
+
+  {
+    "title": "White Girl",
+    "background": "https://resizing.flixster.com/gnN-NYNOu1Kiug9ts5bON9znitI=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/389/423/WhiteGirl_Trailer.jpg",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJ7HeieRqWaDHKmivdvHqZaCgAyKrH1dnXfqI08bwnXOwDf169",
+    "description": "Summer, New York City. A college girl falls hard for a guy she just met. After a night of partying goes wrong, she goes to wild extremes to get him back.",
+    "rate": "R",
+    "duration": "1:01:22",
+    "imdb": "https://www.imdb.com/title/tt4129870/?ref_=tt_sims_tt_i_4"
+  }
+]

@@ -14,7 +14,8 @@ export class TitleTagComponent implements OnInit {
     console.log(this._selectedTag);
   }
   @Input() tags: TagsModel[] = [];
-  @Input() rowTitle = 'title';
+  @Input() rowTitle = 'tags';
+  @Input() title: boolean = false;
   protected searchValue = new String();
   public _selectedTag: string = '';
   public isCollapsed = true;
@@ -22,5 +23,5 @@ export class TitleTagComponent implements OnInit {
   handleActiveTag(tag: TagsModel) {
     this.rowTitle = tag.name;
     console.log({ selection_made: tag.name });
-  } 
+  }
 }

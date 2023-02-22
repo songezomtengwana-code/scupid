@@ -1,0 +1,53 @@
+@mixin scrollbars(
+  $size,
+  $foreground-color,
+  $background-color: mix($foreground-color, white, 50%)
+) {
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  // For Internet Explorer
+  & {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+.section-slideshow {
+  display: flex;
+  flex-flow: row;
+  gap: 2rem;
+  overflow: hidden;
+  overflow-x: scroll;
+  max-height: 50vh;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  @include scrollbars(10px, rgb(255, 255, 255), rgb(255, 255, 255));
+  min-height: 400px;
+}
+
+section.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+    .section-slideshow {
+        padding: 0 1rem !important;
+    }
+
+    .section-title {
+        padding-left: 1rem;
+    }
+}

@@ -30,7 +30,12 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { GiftFilterPipe } from './pipes/gift-filter.pipe';
 import { TitleTagComponent } from './components/title-tag/title-tag.component';
 import { AccomodationComponent } from './pages/accomodation/accomodation.component';
-import { BurgerComponent } from './components/burger/burger.component'
+import { BurgerComponent } from './components/burger/burger.component';
+import { MoviesComponent } from './pages/movies/movies.component';
+import { EntertainmentComponent } from './pages/entertainment/entertainment.component';
+import { MovieComponent } from './layout/movie/movie.component';
+import { SeriesComponent } from './layout/series/series.component';
+import { CardMovieComponent } from './components/card-movie/card-movie.component'
 
 @NgModule({
   declarations: [
@@ -51,7 +56,12 @@ import { BurgerComponent } from './components/burger/burger.component'
     // GiftFilterPipe,s
     TitleTagComponent,
     AccomodationComponent,
-    BurgerComponent
+    BurgerComponent,
+    MoviesComponent,
+    EntertainmentComponent,
+    MovieComponent,
+    SeriesComponent,
+    CardMovieComponent
   ],
   imports: [
     BrowserModule,

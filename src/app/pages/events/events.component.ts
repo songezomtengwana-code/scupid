@@ -3,7 +3,6 @@ import { TagsModel } from 'src/app/models/general/tag.model';
 import { EventsService } from '../../services/events.service';
 import { EventsModel } from '../../models/events/events.model';
 
-
 @Component({
   selector: 'app-events',
   templateUrl: './events.component.html',

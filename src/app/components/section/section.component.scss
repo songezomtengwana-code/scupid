@@ -81,7 +81,7 @@ section.section-scroll {
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
-  width: calc(100vw - 24em);
+  // width: calc(100vw - 24em);
   overflow: hidden;
   overflow-x: scroll;
   padding: 1rem 0;
@@ -135,7 +135,6 @@ input.search-input {
   outline: none;
   transition: all 1s;
   cursor: pointer;
-
 }
 
 .search-button:hover {

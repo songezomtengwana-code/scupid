@@ -2,7 +2,7 @@
   <header class="login-header">
     <div class="header-icon"></div>
     <div class="header-title">Log In</div>
-    <div class="header-subsection">Continue To Enhance Your Romance</div>
+    <div class="header-subsection">holiday made easy</div>
   </header>
   <div class="login-body">
     <div class="body-inputs">
@@ -12,7 +12,7 @@
         [(ngModel)]="user.email"
         required="true"
       />
-      <label for="email" class="label">Enter Email</label>
+      <label for="email" class="label email">Enter Email</label>
     </div>
     <div class="body-inputs">
       <input
@@ -21,7 +21,7 @@
         [(ngModel)]="user.password"
         required="true"
       />
-      <label for="password" class="label">Enter Password</label>
+      <label for="password" class="label password">Enter Password</label>
     </div>
     <div class="checkbox">
       <div class="checkbox-wrapper-31">
@@ -39,15 +39,28 @@
     </div>
     <div class="terms">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-      voluptatum, sed provident quidem, animi rerum, facere accusantium fuga
-      tempora eligendi earum nobis voluptas exercitationem amet ratione
-      consequatur! Quidem eaque neque ut cum.
+      voluptatum, sed provident quidem, animi rerum, facere accusantium .
     </div>
   </div>
   <div class="login-button" (click)="handleLoginRequest()">
-    <cup-button> Log In </cup-button>
+    <a> Log In </a>
   </div>
   <div class="terms" routerLink="/auth/signup">
     <p>don't have an account ? create account</p>
+  </div>
+</div>
+
+<div class="splash-screen">
+  <div class="screen-loader">
+    <!-- <span class="loader"></span> -->
+    <span
+      class="heart"
+      style="
+        font-size: 3rem;
+        color: white;
+        filter: drop-shadow(0px 0px 40px #00000090);
+      "
+      >❤</span
+    > 
   </div>
 </div>

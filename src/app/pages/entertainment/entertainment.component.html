@@ -1,0 +1,10 @@
+<cup-header title="Entertainment"></cup-header>
+<div class="section">
+  <section class="section-title">Movies</section>
+  <div class="section-slideshow">
+    <app-card-movie
+      *ngFor="let movie of movies"
+      [movie]="movie"
+    ></app-card-movie>
+  </div>
+</div>
