@@ -23,13 +23,22 @@ export class LoginComponent {
           loader.classList.add('loading');
           setTimeout(() => {
             this.router.navigateByUrl('shops/gifts');
-          }, 5000);
+          }, 2500);
         } else {
-          password.style.color = 'red';
+          loader.classList.add('loading');
+          setTimeout(() => {
+            password.style.color = 'red';
+            loader.classList.remove('loading');
+          }, 1500);
         }
         break;
       default:
-        email.style.color = 'red';
+        loader.classList.add('loading');
+        setTimeout(() => {
+          email.style.color = 'red';
+          password.style.color = 'red';
+          loader.classList.remove('loading');
+        }, 1500);
         break;
     }
   }

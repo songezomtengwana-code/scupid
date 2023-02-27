@@ -26,6 +26,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatChipsModule } from '@angular/material/chips';
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { TypingAnimatorModule } from 'angular-typing-animator'
  
 import { GiftFilterPipe } from './pipes/gift-filter.pipe';
 import { TitleTagComponent } from './components/title-tag/title-tag.component';
@@ -35,7 +36,12 @@ import { MoviesComponent } from './pages/movies/movies.component';
 import { EntertainmentComponent } from './pages/entertainment/entertainment.component';
 import { MovieComponent } from './layout/movie/movie.component';
 import { SeriesComponent } from './layout/series/series.component';
-import { CardMovieComponent } from './components/card-movie/card-movie.component'
+import { CardMovieComponent } from './components/card-movie/card-movie.component';
+import { LandingComponent } from './components/landing/landing.component';
+import { FavoritesComponent } from './components/favorites/favorites.component';
+import { HomeComponent } from './pages/home/home.component';
+import { OptionCardComponent } from './component/option-card/option-card.component';
+import { FooterComponent } from './components/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -61,7 +67,12 @@ import { CardMovieComponent } from './components/card-movie/card-movie.component
     EntertainmentComponent,
     MovieComponent,
     SeriesComponent,
-    CardMovieComponent
+    CardMovieComponent,
+    LandingComponent,
+    FavoritesComponent,
+    HomeComponent,
+    OptionCardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -75,7 +86,8 @@ import { CardMovieComponent } from './components/card-movie/card-movie.component
     MatPaginatorModule,
     MatProgressSpinnerModule,
     MatChipsModule,
-    NgbModule
+    NgbModule,
+    TypingAnimatorModule
   ],
   providers: [],
   bootstrap: [AppComponent],

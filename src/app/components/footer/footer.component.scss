@@ -1,0 +1,41 @@
+.footer {
+  padding: 5rem 2rem;
+}
+
+.footer-row {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.row-feedback {
+  display: flex;
+  flex-flow: row;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+ngb-rating.d-inline-flex.ng-valid.ng-touched.ng-dirty {
+  color: gold;
+  font-size: 2rem;
+}
+
+.feedback-button {
+  padding: 0.5rem 2rem;
+  background: black;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.row-links a {
+  font-size: 2rem;
+  color: black;
+}
+
+.row-links {
+  display: flex;
+  flex-flow: row;
+  gap: 1rem;
+  color: black;
+}

@@ -8,6 +8,7 @@ import { GiftsComponent } from './pages/gifts/gifts.component';
 import { EventsComponent } from './pages/events/events.component';
 import { AccomodationComponent } from './pages/accomodation/accomodation.component';
 import { EntertainmentComponent } from './pages/entertainment/entertainment.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
   // authentication routes
@@ -20,6 +21,10 @@ const routes: Routes = [
     ],
   },
   // main app routes
+  {
+    path: 'welcome',
+    component: HomeComponent
+  },
   {
     path: 'shop',
     component: ShopComponent,

@@ -101,11 +101,11 @@ header.login-header {
 
 .header-icon {
   height: 5vh;
-    width: 5vh;
-    background-size: contain;
-    background-image: url(../../../assets/icon.png);
-    background-position: center;
-    background-repeat: no-repeat;
+  width: 5vh;
+  background-size: contain;
+  background-image: url(../../../assets/icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .header-title {
@@ -171,8 +171,19 @@ input:focus {
 .login-button {
   width: 100%;
   margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background: var(--base-color);
+  border-radius: 5rem;
+  color: white;
+  transition: all 1s;
+  font-weight: bold;
 }
 
+.login-button:hover {
+  padding-left: 2rem;
+  transition: all 0.75s;
+  cursor: pointer;
+}
 
 .loader {
   width: 48px;
@@ -181,6 +192,7 @@ input:focus {
   position: relative;
   transform: rotate(45deg);
 }
+
 .loader::before {
   content: "";
   box-sizing: border-box;

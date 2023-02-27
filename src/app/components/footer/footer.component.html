@@ -1,0 +1,33 @@
+<div class="footer">
+  <div class="footer-row">
+    <div class="row-feedback" data-aos="fade-down" data-aos-duration="3500">
+      <ngb-rating
+        [max]="5"
+        [(rate)]="starRate"
+        [(ngModel)]="starRate"
+        data-aos="fade-down"
+        data-aos-duration="3500"
+      ></ngb-rating>
+      <div
+        class="feedback-button"
+        data-aos="fade-down"
+        data-aos-duration="3500"
+      >
+        send
+      </div>
+    </div>
+    <div class="row-copyright" data-aos="fade-down" data-aos-duration="3500">
+      cupid 2023 © mapitsiliciousness .inc
+    </div>
+    <div class="row-links" data-aos="fade-down" data-aos-duration="3500">
+      <a
+        [href]="link.url"
+        *ngFor="let link of links"
+        data-aos="fade-down"
+        data-aos-duration="3500"
+      >
+        <i class="bi bi-{{ link.icon }}"></i>
+      </a>
+    </div>
+  </div>
+</div>

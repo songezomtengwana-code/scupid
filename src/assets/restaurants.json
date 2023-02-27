@@ -24,7 +24,7 @@
     "image": "https://i.ibb.co/MCBNb2j/card99.png",
     "name": "Nine Nine",
     "description": "IF YOU’RE GONNA LOVE ME, LOVE ME TO THE NINES, THEY SAY. IT’S HARD TO DISAGREE. LOVE & LIFE. FOOD, FAMILY & FRIENDS. MOMENTS & MEMORIES. SOME THINGS SHOULD NEVER BE HALF-DONE. LIFE’S TOO SHORT & BAD LUNCHES ARE TOO LONG. AND SO IT IS: ENTER THE NINES. A ROOFTOP RESTAURANT & COCKTAIL LOUNGE THAT REFUSES TO COMPROMISE WHERE IT COUNTS.",
-    "rate": 5,
+    "rate": 4,
     "url": "https://thenines.co.za",
     "base_color": "#A87F72",
     "important_links": [
@@ -39,7 +39,7 @@
     "image": "https://i.ibb.co/qydmSDy/cardlaclomnua.png",
     "name": "petite la colombe",
     "description": "Situated on the Pierhead, with the iconic views that have made this attraction so famous worldwide, PIER restaurant offers an intimate, multi-course fine-dining experience to one of the world’s most-loved destinations.",
-    "rate": 5,
+    "rate": 3,
     "url": "https://www.upperunion.co.za",
     "base_color": "#C59F65",
     "important_links": [
@@ -59,7 +59,27 @@
     "image": "https://i.ibb.co/jw2qSng/cardhussar.png",
     "name": "the hussar grill",
     "description": "The Hussar Grill first opened its legendary brass doors in 1964 and today, after 55 years of excellence, it is regarded as one of South Africa’s premier grill rooms. Having garnered a loyal following over the years, we are known for our award-winning speciality steaks and wine selection, superb service and warm ambience. We remain, as ever, with pleasure and always at your service.",
-    "rate": 5,
+    "rate": 4,
+    "url": "https://www.hussargrill.co.za",
+    "base_color": "#C59F65",
+    "important_links": [
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/TheHussargrill",
+        "icon": "twitter"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/thehussargrill/"
+      }
+    ]
+  },
+  {
+    "location": "Cape Town",
+    "image": "https://i.ibb.co/jw2qSng/cardhussar.png",
+    "name": "the hussar grill",
+    "description": "The Hussar Grill first opened its legendary brass doors in 1964 and today, after 55 years of excellence, it is regarded as one of South Africa’s premier grill rooms. Having garnered a loyal following over the years, we are known for our award-winning speciality steaks and wine selection, superb service and warm ambience. We remain, as ever, with pleasure and always at your service.",
+    "rate": 4,
     "url": "https://www.hussargrill.co.za",
     "base_color": "#C59F65",
     "important_links": [

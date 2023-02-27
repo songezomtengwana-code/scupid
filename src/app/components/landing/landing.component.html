@@ -1,0 +1,19 @@
+<div class="landing">
+  <div class="landing-container">
+    <div class="landing-content">
+      <div
+        class="content-quote"
+        typingAnimator
+        [sentences]="company.quotes[0].content"
+        [typeSpeed]="150"
+        [showCursor]="false"
+      ></div>
+      <div class="content-by">
+        {{ company.quotes[0].author }}
+      </div>
+    </div>
+    <section id="section05" class="demo">
+      <a href="/shop/gifts#scroll"><span></span></a>
+    </section>
+  </div>
+</div>
