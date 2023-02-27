@@ -1,0 +1,106 @@
+<cup-nav></cup-nav>
+<div class="hero">
+  <div class="hero-section">
+    <div class="hero-section-background" @heartDrop>
+      <img
+        class="hero-section-heart heart-drop h-4"
+        src="../../../assets/heart.svg"
+      />
+      <img
+        class="hero-section-heart heart-drop h-5"
+        src="../../../assets/heart.svg"
+      />
+      <img
+        class="hero-section-heart heart-drop h-6"
+        src="../../../assets/heart.svg"
+      />
+    </div>
+    <div class="hero-section-content" @contentDisplay>
+      <div class="content-display content-title">
+        <img src="../../../assets/icon.png" alt="" srcset="" />
+        <div class="title-text">Cupid</div>
+      </div>
+      <div class="content-display content-text">
+        <div
+          class="content-display content-quote"
+          typingAnimator
+          [sentences]="welcome"
+          [typeSpeed]="150"
+          [showCursor]="false"
+        ></div>
+      </div>
+      <div class="content-display content-ctas">
+        <button class="ctas-primary">Get Started</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="banner">
+  <div class="stores">
+    <a
+      [href]="store.storeUrl"
+      class="store"
+      *ngFor="let store of stores"
+      [title]="store.storeName"
+    >
+      <img [src]="store.storeImage" alt="" srcset="" class="store-icon" />
+    </a>
+  </div>
+</div>
+<div class="options">
+  <ul class="options-container" @staggerOptions>
+    <app-option-card
+      [option]="option"
+      *ngFor="let option of options"
+    ></app-option-card>
+  </ul>
+</div>
+<main class="main">
+  <section class="clear">
+    <section class="clear-container">
+      <section class="container-left">
+        <section
+          class="left-title"
+          data-aos="fade-down"
+          data-aos-duration="3500"
+        >
+          Romanitc Movie's For Days
+        </section>
+        <section
+          class="left-text"
+          data-aos="fade-down"
+          data-aos-duration="3500"
+        >
+          Netflix and Chill ? Visit our selection of romantic movies for
+          valentines day from netflix, showmax and more . Get Detailed
+          information about a movie and their direct link
+        </section>
+        <section
+          class="left-button"
+          data-aos="fade-down"
+          data-aos-duration="3500"
+        >
+          <div class="button-text" routerLink="/shop/entertainment">
+            Visit Entertainment <i class="bi bi-arrow-right"></i>
+          </div>
+        </section>
+      </section>
+      <section class="container-right">
+        <section class="right-wrap">
+          <a
+            routerLink="/shop/entertainment"
+            class="movie"
+            *ngFor="let movie of movies"
+            data-aos="fade-down"
+            data-aos-duration="3500"
+          >
+            <img [src]="movie.image" class="movie-image" alt="" srcset="" />
+          </a>
+        </section>
+      </section>
+    </section>
+  </section>
+</main>
+<div class="bottom">
+  <app-footer></app-footer>
+</div>

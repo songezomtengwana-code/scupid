@@ -23,7 +23,7 @@
     ],
     "discount": 0,
     "discount_shown": false,
-    "tags": ["her", "flowers"]
+    "tags": ["flowers"]
   },
   {
     "product_id": "2edx23d3-1r3d2-3d43c",
@@ -47,9 +47,9 @@
         "isAvailable": false
       }
     ],
-    "tags": ["mostly ordered"],
-    "discount": 0,
-    "discount_shown": false
+    "tags": ["her"],
+    "discount": 10,
+    "discount_shown": true
   },
   {
     "product_id": "2edx23d3-1r3d2-d4342d",
@@ -99,7 +99,7 @@
         "isAvailable": false
       }
     ],
-    "tags": ["him", "her"],
+    "tags": ["him"],
     "discount": 799.00,
     "discount_shown": true
   },
@@ -183,7 +183,7 @@
   },
   {
     "product_id": "HQ-271",
-    "name": "Rechargeable Professional Hair Clipper",
+    "name": "Rechargeable Hair Clipper",
     "image": "http://takealot.s3.amazonaws.com/covers_tsins/56592195/56592195-2.jpg",
     "shop": "Takealot",
     "url": "https://www.takealot.com/x/PLID53598012",
@@ -203,7 +203,7 @@
         "isAvailable": false
       }
     ],
-    "tags": ["her"],
+    "tags": ["him"],
     "discount": 150.00,
     "discount_shown": true
   },
@@ -255,7 +255,7 @@
         "isAvailable": false
       }
     ],
-    "tags": ["her"],
+    "tags": ["accessories"],
     "discount": 480.00,
     "discount_shown": true
   },
@@ -281,7 +281,7 @@
         "isAvailable": false
       }
     ],
-    "tags": ["her"],
+    "tags": ["flowers"],
     "discount": 160.00,
     "discount_shown": true
   },
@@ -307,7 +307,7 @@
         "isAvailable": false
       }
     ],
-    "tags": ["her"],
+    "tags": ["accessories"],
     "discount": 0,
     "discount_shown": false
   }

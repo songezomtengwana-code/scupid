@@ -1,0 +1,195 @@
+@mixin scrollbars(
+  $size,
+  $foreground-color,
+  $background-color: mix($foreground-color, white, 50%)
+) {
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  // For Internet Explorer
+  & {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+.hover {
+  opacity: 0;
+  display: none;
+  transform: translateX(-100vw);
+  width: 30vw;
+  color: white;
+  height: 30vh;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.movie {
+  background: white;
+  color: black;
+  min-width: 170px;
+  overflow: hidden;
+  padding-bottom: 1.25rem;
+  border: 2px solid transparent;
+
+  &:hover {
+    transition: all 1s;
+    min-width: 320px;
+    .movie-image img {
+      opacity: 0;
+      transform: translateX(-100vw);
+      transition: all 1s;
+      display: none;
+    }
+    .hover {
+      opacity: 1;
+      transform: translateX(0);
+      display: flex;
+    }
+  }
+}
+
+.movie-image img {
+  height: 30vh;
+}
+
+.movie-name {
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+.movie-background {
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+.hover-header {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.25rem;
+}
+
+.hover-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hover-header i {
+  cursor: pointer;
+}
+
+.hover-more {
+  display: flex;
+  flex-flow: row;
+  gap: 1rem;
+  margin: 0.5rem 0;
+  align-items: center;
+}
+
+.hover-description {
+  overflow: hidden;
+  overflow-y: scroll;
+  max-height: 200px;
+}
+
+.more-rate {
+  padding: 0.25rem;
+  font-weight: bold;
+  border: 2px solid white;
+  height: 25px;
+  width: 25px;
+  display: grid;
+  place-content: center;
+}
+
+.hover-active {
+  opacity: 1;
+  transform: translateX(0);
+  display: flex;
+}
+
+.more-duration::before {
+  content: "Duration : ";
+}
+
+.overlay {
+  background: #00000060;
+  padding: 1.25rem;
+}
+
+.description {
+  height: 10vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  @include scrollbars(10px, #00000000, #00000000);
+}
+
+.close-hover {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  section.hover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    height: 100vh !important;
+    width: 100vw !important;
+    border-radius: unset !important;
+  }
+
+  .overlay {
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+  }
+
+  .close-hover {
+    font-size: 2rem;
+    background: black;
+    width: 5vh;
+    height: 5vh;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0.75rem;
+    right: 0.75rem;
+  }
+
+  .description {
+    overflow: visible !important;
+  }
+
+  .hover-inactive {
+    opacity: 0 !important;
+    display: none !important;
+    transform: translateX(-100vw) !important;
+  }
+
+  .hover-description {
+    max-height: unset !important;
+  }
+}

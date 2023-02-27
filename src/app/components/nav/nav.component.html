@@ -1,6 +1,6 @@
-  <div class="nav">
+<div class="nav">
   <div class="nav-container">
-    <div class="container-brand" routerLink="/">
+    <div class="container-brand" routerLink="/welcome" style="cursor: pointer;">
       <span
         class="brand-icon"
         style="background-image: url('../../../assets/icon.png')"
@@ -9,6 +9,7 @@
     </div>
     <div class="container-links" [@slideInOut]="menuState">
       <div
+        (click)="handleSideNav()"
         class="links-route"
         routerLinkActive="nav-route-active"
         routerLink="/shop/gifts"
@@ -16,6 +17,7 @@
         gifts
       </div>
       <div
+        (click)="handleSideNav()"
         class="links-route"
         routerLinkActive="nav-route-active"
         routerLink="/shop/events"
@@ -23,6 +25,7 @@
         Events
       </div>
       <div
+        (click)="handleSideNav()"
         class="links-route"
         routerLinkActive="nav-route-active"
         routerLink="/shop/accommodations"
@@ -30,18 +33,12 @@
         Accommodation
       </div>
       <div
+        (click)="handleSideNav()"
         class="links-route"
         routerLinkActive="nav-route-active"
-        routerLink="/shop/movies"
+        routerLink="/shop/entertainment"
       >
-        Movies
-      </div>
-      <div
-        class="links-route"
-        routerLinkActive="nav-route-active"
-        routerLink="/shop/podcasts"
-      >
-        Podcasts
+        Entertainment
       </div>
     </div>
 
@@ -52,18 +49,8 @@
         </cup-button>
       </div>
       <div class="button-button">
-        <cup-button>
-          <div class="bi bi-search"></div>
-        </cup-button>
-      </div>
-      <div class="button-button">
-        <cup-button>
-          <div class="bi bi-cart"></div>
-        </cup-button>
-      </div>
-      <div class="button-button">
-        <cup-button>
-          <div class="bi bi-arrow-right-square"></div>
+        <cup-button routerLink="/auth/login">
+          <div class="bi bi-box-arrow-right"></div>
         </cup-button>
       </div>
     </div>

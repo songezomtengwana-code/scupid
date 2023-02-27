@@ -17,10 +17,10 @@
   },
   {
     "location": "Cape Town",
-    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/219374947.jpg?k=e503da1e77b2728ab81e4c36b93e280f15e96a7fe2dffb1ff2c7bbccfb316020&o=&hp=1",
+    "image": "https://3oncampsbay.com/wp-content/uploads/2019/09/front-page-slide6.jpg",
     "name": "3 On Camps Bay",
     "description": "You're eligible for a Genius discount at 3 On Camps Bay! To save at this property, all you have to do is sign in. With an outdoor plunge pool overlooking the rocky Atlantic coast of Camps Bay, 3 on Camps Bay features free private parking. Rooms have balconies and free Wi-Fi.",
-    "rate": 5,
+    "rate": 4,
     "url": "https://3oncampsbay.com",
     "base_color": "#000000",
     "important_links": [
@@ -33,6 +33,37 @@
         "name": "twitter",
         "url": "https://twitter.com/3oncampsbay",
         "icon": "twitter"
+      },
+      {
+        "name": "whatsapp",
+        "url": "https://wa.me/27832349987",
+        "icon": "whatsapp"
+      }
+    ]
+  },
+  {
+    "location": "Cape Town",
+    "image": "https://3oncampsbay.com/wp-content/uploads/2019/09/front-page-slide6.jpg",
+    "name": "Bliss Boutique Hotel",
+    "description": "You're eligible for a Genius discount at 3 On Camps Bay! To save at this property, all you have to do is sign in. With an outdoor plunge pool overlooking the rocky Atlantic coast of Camps Bay, 3 on Camps Bay features free private parking. Rooms have balconies and free Wi-Fi.",
+    "rate": 4,
+    "url": "https://3oncampsbay.com",
+    "base_color": "#000000",
+    "important_links": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/3onCampsBay",
+        "icon": "facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/3oncampsbay",
+        "icon": "twitter"
+      },
+      {
+        "name": "whatsapp",
+        "url": "https://wa.me/27832349987",
+        "icon": "whatsapp"
       }
     ]
   }

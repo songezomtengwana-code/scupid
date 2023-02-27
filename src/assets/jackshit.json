@@ -1,0 +1,86 @@
+[
+    {
+      "nameofmovie": "Dr.Romantic",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjQ0YjZlMGEtMmJjNy00MDE1LThmOWQtYTc4N2Q4MjM4MTVmXkEyXkFqcGdeQXVyMjQ2OTU4Mjg@._V1_UY100_CR30,0,100,100_AL_.jpg",
+      "discribtion": "Romantic Doctor Kim is a real doctor story set in a small, humble hospital called Dol Dam Hospital. It is a story about people who meet Kim Sa Bu (Han Suk Kyu), a genius doctor, and discover real romance.",
+      "url": "https://www.imdb.com/title/tt6157190/?ref_=nv_sr_srsg_5"
+    },
+
+    {
+      "nameofmovie": "Norbit",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTUxMzI1ODMzMV5BMl5BanBnXkFtZTYwMzA3Mzk2._V1_UY100_CR23,0,100,100_AL_.jpg",
+      "discribtion": "A mild-mannered guy, who is married to a monstrous woman, meets the woman of his dreams, and schemes to find a way to be with her",
+      "url": "https://www.imdb.com/title/tt0477051/?ref_=nv_sr_srsg_0"
+    },
+
+    {
+      "nameofmovie": "Friends with Benefits",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjI4Mzk1NjMyMV5BMl5BanBnXkFtZTcwOTUwNTE5NQ@@._V1_UY100_CR25,0,100,100_AL_.jpg",
+      "discribtion": "A young man and woman decide to take their friendship to the next level without becoming a couple, but soon discover that adding sex only leads to complications.",
+      "url": "https://www.imdb.com/title/tt1632708/?ref_=nv_sr_srsg_3"
+    },
+
+    {
+        "nameofmovie": "Somebody I Used to Know",
+        "image": "https://m.media-amazon.com/images/M/MV5BMmExODk5MjMtYzc0Yi00NmYzLThiOGMtNGYxZWMyMDc3YWRkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_UY100_CR50,0,100,100_AL_.jpg",
+        "discribtion": "On a trip to her hometown, workaholic Ally reminisces with her ex Sean and starts to question everything about the person she's become. Things only get more confusing when she meets Cassidy, who reminds her of the person she used to be.",
+        "url": "https://www.imdb.com/title/tt15333984/?ref_=adv_li_tt"
+    },
+
+    {
+        "nameofmovie": "You People",
+        "image": "https://m.media-amazon.com/images/M/MV5BYTZhOGJlODMtNDQzNS00MjA3LThhYjQtZDhhNTE0MWM4NGFiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY100_CR25,0,100,100_AL_.jpg",
+        "discribtion": "Follows a new couple and their families, who find themselves examining modern love and family dynamics amidst clashing cultures, societal expectations and generational differences",
+        "url": "https://www.imdb.com/title/tt14826022/?ref_=fn_al_tt_5"
+
+    },
+
+    {
+        "nameofmovie": "Midnight Sun",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTY5ODU4ODI5OF5BMl5BanBnXkFtZTgwOTAxMzkyMzI@._V1_UY100_CR25,0,100,100_AL_.jpg",
+        "discribtion": "A 17-year-old girl suffers from a condition that prevents her from being out in the sunlight.",
+        "url": "https://www.imdb.com/title/tt4799066/?ref_=nv_sr_srsg_0"
+    },
+
+    {
+        "nameofmovie": "Me Before You",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDNhYWYxYjctODIwZi00NGRjLTllZGQtODE0YmQ2ZjE3MjI1XkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_UX100_CR0,0,100,100_AL_.jpg",
+        "discribtion": "A girl in a small town forms an unlikely bond with a recently-paralyzed man she's taking care of.",
+        "url": "https://www.imdb.com/title/tt2674426/?ref_=tt_sims_tt_i_10"
+    },
+
+    {
+        "nameofmovie": "365 Days",
+        "image": "https://m.media-amazon.com/images/M/MV5BN2M2ZmZlN2EtZjgyNy00ZDVkLTkwMzAtMDM2ZDE0N2JhMTUxXkEyXkFqcGdeQXVyOTExNDcyMjU@._V1_UY100_CR85,0,100,100_AL_.jpg",
+        "discribtion": "Massimo is a member of the Sicilian Mafia family and Laura is a sales director. She does not expect that on a trip to Sicily trying to save her relationship, Massimo will kidnap her and give her 365 days to fall in love with him.",
+        "url": "https://www.imdb.com/title/tt10886166/?ref_=nv_sr_srsg_2"
+    },
+    {
+     "nameofmovie": "Everything, Everything",   
+     "image": "https://m.media-amazon.com/images/M/MV5BZThmNWMxYmItNzc1Ni00MDVjLWFhMTAtZmUzOGY5NjMyZjAwXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_UX100_CR0,0,100,100_AL_.jpg",
+     "discribtion": "A teenager who's spent her whole life confined to her home falls for the boy next door.",
+     "url": "https://www.imdb.com/title/tt5001718/?ref_=tt_sims_tt_i_2"
+    },
+
+    {
+      "nameofmovie": "Addicted",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQxNDgzMDAzNl5BMl5BanBnXkFtZTgwMDIyNDk3MjE@._V1_UY100_CR42,0,100,100_AL_.jpg",
+      "discribtion": "A gallerist risks her family and flourishing career when she enters into an affair with a talented painter and slowly loses control of her life.",
+      "url": "https://www.imdb.com/title/tt2205401/?ref_=nv_sr_srsg_0"
+        
+    },
+
+    {
+      "nameofmovie": "Amar",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzBkZDQ0MTEtYjcwMi00ODFiLTliZDQtNmJkZWU1MDUxOWUxXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_UX100_CR0,0,100,100_AL_.jpg",
+      "discribtion": "Laura and Carlos love each other as if every day was the last, and perhaps that first love intensity is what will tear them apart a year later.",
+      "url": "https://www.imdb.com/title/tt5479616/?ref_=tt_sims_tt_i_3"
+    },
+
+    {
+      "nameofmovie": "White Girl",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc4ODAwNzYwNl5BMl5BanBnXkFtZTgwOTc4NjkzNzE@._V1_UY100_CR39,0,100,100_AL_.jpg",
+      "discribtion": "Summer, New York City. A college girl falls hard for a guy she just met. After a night of partying goes wrong, she goes to wild extremes to get him back.",
+      "url": "https://www.imdb.com/title/tt4129870/?ref_=tt_sims_tt_i_4"
+    }
+]

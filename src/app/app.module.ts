@@ -26,12 +26,26 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatChipsModule } from '@angular/material/chips';
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { TypingAnimatorModule } from 'angular-typing-animator'
  
 import { GiftFilterPipe } from './pipes/gift-filter.pipe';
 import { TitleTagComponent } from './components/title-tag/title-tag.component';
 import { AccomodationComponent } from './pages/accomodation/accomodation.component';
 import { BurgerComponent } from './components/burger/burger.component';
+<<<<<<< HEAD
 import { MatchComponent } from './components/match/match.component'
+=======
+import { MoviesComponent } from './pages/movies/movies.component';
+import { EntertainmentComponent } from './pages/entertainment/entertainment.component';
+import { MovieComponent } from './layout/movie/movie.component';
+import { SeriesComponent } from './layout/series/series.component';
+import { CardMovieComponent } from './components/card-movie/card-movie.component';
+import { LandingComponent } from './components/landing/landing.component';
+import { FavoritesComponent } from './components/favorites/favorites.component';
+import { HomeComponent } from './pages/home/home.component';
+import { OptionCardComponent } from './component/option-card/option-card.component';
+import { FooterComponent } from './components/footer/footer.component'
+>>>>>>> 4c1000508017eca724f4165bac4cd8c2185f5c18
 
 @NgModule({
   declarations: [
@@ -53,7 +67,20 @@ import { MatchComponent } from './components/match/match.component'
     TitleTagComponent,
     AccomodationComponent,
     BurgerComponent,
+<<<<<<< HEAD
     MatchComponent
+=======
+    MoviesComponent,
+    EntertainmentComponent,
+    MovieComponent,
+    SeriesComponent,
+    CardMovieComponent,
+    LandingComponent,
+    FavoritesComponent,
+    HomeComponent,
+    OptionCardComponent,
+    FooterComponent
+>>>>>>> 4c1000508017eca724f4165bac4cd8c2185f5c18
   ],
   imports: [
     BrowserModule,
@@ -67,7 +94,8 @@ import { MatchComponent } from './components/match/match.component'
     MatPaginatorModule,
     MatProgressSpinnerModule,
     MatChipsModule,
-    NgbModule
+    NgbModule,
+    TypingAnimatorModule
   ],
   providers: [],
   bootstrap: [AppComponent],

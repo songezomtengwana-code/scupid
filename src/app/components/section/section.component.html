@@ -1,13 +1,96 @@
 <div class="section">
-  <cup-title-tag [tags]="tags" [rowTitle]="tags[0].name"></cup-title-tag>
-  <section class="section-scroll">
-    <div class="scroll-card">
-      <main class="scroll-card">
-        <cup-horizontal-card
-          [product]="product"
-          *ngFor="let product of products"
-        ></cup-horizontal-card>
-      </main>
+  <header class="sections-header">
+    <div class="section-header-options">
+      <button
+        class="primary"
+        type="button btn"
+        (click)="isCollapsed = !isCollapsed"
+        [attr.aria-expanded]="!isCollapsed"
+        aria-controls="collapseExample"
+      >
+        {{ rowTitle }}
+        <i class="bi bi-caret-right-fill"></i>
+      </button>
+      <div
+        #collapse="ngbCollapse"
+        [(ngbCollapse)]="isCollapsed"
+        [horizontal]="true"
+      >
+        <div class="card">
+          <div class="card-body">
+            <main>
+              <div class="tags">
+                <div
+                  class="tags-tag"
+                  *ngFor="let tag of tags"
+                  (click)="handleActiveTag(tag)"
+                >
+                  <main
+                    (click)="isCollapsed = !isCollapsed"
+                    [attr.aria-expanded]="!isCollapsed"
+                  >
+                    {{ tag.name }}
+                  </main>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
     </div>
+  </header>
+  <!-- all products -->
+  <section class="section-scroll" *ngIf="tags[0].status === true">
+    <main class="scroll-card">
+      <cup-horizontal-card
+        [product]="product"
+        *ngFor="let product of products"
+      ></cup-horizontal-card>
+    </main>
+  </section>
+  <!-- discounted products -->
+  <section class="section-scroll" *ngIf="tags[1].status === true">
+    <main class="scroll-card" *ngFor="let product of products">
+      <cup-horizontal-card
+        *ngIf="product.discount_shown === true"
+        [product]="product"
+      ></cup-horizontal-card>
+    </main>
+  </section>
+  <!-- her products -->
+  <section class="section-scroll" *ngIf="tags[2].status === true">
+    <main class="scroll-card" *ngFor="let product of products">
+      <cup-horizontal-card
+        *ngIf="product.tags[0] === 'her'"
+        [product]="product"
+      ></cup-horizontal-card>
+    </main>
+  </section>
+  <!-- him products -->
+  <section class="section-scroll" *ngIf="tags[3].status === true">
+    <main class="scroll-card" *ngFor="let product of products">
+      <cup-horizontal-card
+        *ngIf="product.tags[0] === 'him'"
+        [product]="product"
+      ></cup-horizontal-card>
+    </main>
+  </section>
+  <!-- accessories products -->
+  <section class="section-scroll" *ngIf="tags[4].status === true">
+    <main class="scroll-card" *ngFor="let product of products">
+      <cup-horizontal-card
+        *ngIf="product.tags[0] === 'accessories'"
+        [product]="product"
+      ></cup-horizontal-card>
+    </main>
+  </section>
+  <!-- flowers -->
+  <section class="section-scroll" *ngIf="tags[5].status === true">
+    <main class="scroll-card" *ngFor="let product of products">
+      <cup-horizontal-card
+        *ngIf="product.tags[0] === 'flowers'"
+        [product]="product"
+      ></cup-horizontal-card>
+    </main>
   </section>
 </div>

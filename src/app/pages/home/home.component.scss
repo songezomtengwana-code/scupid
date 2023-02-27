@@ -1,0 +1,283 @@
+.hero {
+  height: 95vh;
+  width: 98vw;
+  display: grid;
+  place-content: center;
+  background: white;
+  border-radius: 0 0 50rem 0rem;
+}
+
+.hero-section {
+  position: relative;
+  display: grid;
+  place-content: center;
+  height: 95vh;
+  width: 100vw;
+}
+
+.hero-section-background {
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  padding-top: 130px;
+  overflow-x: hidden;
+}
+
+img.hero-section-heart {
+  height: 30vh;
+  position: absolute;
+  opacity: 0;
+}
+
+img.hero-section-heart.h-6 {
+  top: 2rem;
+  left: 60px;
+  height: 60vh;
+  width: 60vh;
+  opacity: 0.3;
+  display: none;
+}
+
+img.hero-section-heart.h-5 {
+  height: 20vh;
+  bottom: 0;
+  left: -60px;
+  opacity: 0.3;
+  display: none;
+}
+
+img.hero-section-heart.h-4 {
+  height: 100vh;
+  bottom: 0;
+  left: 70vw;
+  opacity: 0.3;
+}
+
+.hero-section-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 95vh;
+  width: 100vw;
+  padding: 10rem 12.5rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.content-title {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  gap: 10px;
+  overflow: hidden;
+  max-height: 50px;
+  margin: 0;
+}
+
+.content-title img {
+  height: 3vh;
+  display: none;
+}
+
+.title-text {
+  font-size: 1rem;
+  font-weight: 100;
+  color: black;
+}
+
+.content-text {
+  font-size: 2.75rem;
+  font-weight: bold;
+  min-height: 200px;
+  display: grid;
+  place-content: start;
+  margin-bottom: 1rem;
+  color: var(--base-color);
+  width: 27.5vw;
+}
+
+.content-ctas {
+  display: flex;
+  flex-flow: row;
+  gap: 1rem;
+}
+
+button.ctas-primary {
+  padding: 0.75rem 2.25rem;
+  border-radius: 2.5rem;
+  border: 2px solid var(--base-color);
+  background: var(--base-color);
+  color: white;
+  font-weight: bold;
+}
+
+section.block {
+  padding: 5rem 12.5rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  /* position: relative; */
+  align-items: center;
+}
+
+.block-container {
+  max-width: 50vw;
+  /* position: absolute; */
+  left: 11rem;
+}
+
+.container-text {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+
+.container-top {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--base-color);
+  font-size: 2.5rem;
+}
+
+.container-bottom {
+  display: flex;
+  flex-flow: column;
+  gap: 1.125rem;
+}
+
+a.block-icons {
+  filter: grayscale(1);
+}
+
+.block-icons img {
+  height: 5vh;
+  margin-top: 2rem;
+}
+
+.container-image img {
+  height: 40vh;
+}
+
+section.container-image {
+  height: 40vh;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
+
+.options {
+  padding: 2rem 12.5rem;
+  display: flex;
+  flex-flow: row;
+}
+
+.options-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.option:hover {
+  transform: translateY(10px);
+}
+
+img.store-icon {
+  height: 5vh;
+}
+
+.banner {
+  padding: 5rem 13.5rem;
+  display: grid;
+  place-content: center;
+}
+
+.stores {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  filter: grayscale(1);
+  gap: 2.5rem;
+}
+
+div {
+  background-color: white;
+}
+
+.clear {
+  min-height: 40vh;
+  width: 100%;
+  padding: 10rem 13.5rem;
+  background-color: #00000085;
+}
+
+.main {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-image: url("https://filmdaily.co/wp-content/uploads/2021/04/netflixchill-lede.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  background-clip: border-box;
+}
+
+section.clear-container {
+  display: flex;
+  flex-flow: row;
+  gap: 2.5rem;
+}
+
+section.container-left {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+section.left-title {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+section.left-text {
+  font-size: 1.2rem;
+  color: #b6b6b6;
+}
+
+img.movie-image {
+  height: 314px;
+}
+
+section.right-wrap {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: space-around;
+  max-height: 315px;
+  overflow: hidden;
+}
+
+section.container-right {
+  display: flex;
+  align-items: center;
+  max-width: 30vw;
+}
+
+.button-text {
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  width: max-content;
+}
+
+.button-text:hover {
+  transition: all 0.5s;
+  padding-left: 3rem;
+  cursor: pointer;
+}

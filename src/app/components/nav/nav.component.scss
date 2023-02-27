@@ -9,6 +9,11 @@
   right: 0;
   position: fixed;
   z-index: 10;
+
+  .nav-route-active {
+    border-bottom-color: var(--base-color);
+    transition: all 0.75s;
+  }
 }
 
 .nav-container {
@@ -54,6 +59,7 @@ span.brand-icon {
   font-size: 1.15rem;
   text-transform: capitalize;
   color: #838383;
+  border-bottom: 2px solid transparent;
   transition: all 0.5s;
 }
 

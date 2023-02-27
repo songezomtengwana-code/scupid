@@ -59,7 +59,7 @@
         {{ accommodation.description }}
       </div>
       <div class="rating">
-        <ngb-rating [max]="5" [(rate)]="starRating"></ngb-rating>
+        <ngb-rating [max]="5" [(rate)]="accommodation.rate"></ngb-rating>
       </div>
       <div class="buttons">
         <div class="buttons-social">
@@ -108,7 +108,7 @@
         {{ hotel.description }}
       </div>
       <div class="rating">
-        <ngb-rating [max]="5" [(rate)]="starRating"></ngb-rating>
+        <ngb-rating [max]="10" [(rate)]="hotel.rate"></ngb-rating>
       </div>
       <div class="buttons">
         <div class="buttons-social">

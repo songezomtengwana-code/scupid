@@ -1,0 +1,22 @@
+<div class="option" >
+  <div class="option-container">
+    <div class="option-container-text">
+      <div class="text-head">{{ option.name }}</div>
+      <div class="text-content">
+        {{ option.text }}
+      </div>
+      <div class="text-button" route>
+        <div class="button-text">shop {{ option.name }}</div>
+        <i class="bi bi-arrow-right"></i>
+      </div>
+    </div>
+    <div class="option-container-bg">
+      <img
+        [src]="option.image"
+        class="bg-image"
+        [alt]="option.name"
+        srcset=""
+      />
+    </div>
+  </div>
+</div>

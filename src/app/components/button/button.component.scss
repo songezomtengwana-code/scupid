@@ -22,3 +22,9 @@ div#button:hover {
     transition: all .5s;
     cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+    .bi {
+        font-size: .75rem !important;
+    }
+}
