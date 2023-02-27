@@ -7,6 +7,7 @@ import { ShopComponent } from './shop/shop.component';
 import { GiftsComponent } from './pages/gifts/gifts.component';
 import { EventsComponent } from './pages/events/events.component';
 import { AccomodationComponent } from './pages/accomodation/accomodation.component';
+import { MatchComponent } from './components/match/match.component';
 
 const routes: Routes = [
   // authentication routes
@@ -25,6 +26,7 @@ const routes: Routes = [
     children: [
       { path: 'gifts', component: GiftsComponent },
       { path: 'events', component: EventsComponent },
+      { path: 'match', component: MatchComponent },
       { path: 'accommodations', component: AccomodationComponent }
     ],
   },

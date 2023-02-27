@@ -1,0 +1,190 @@
+.container {
+    margin-top: 130px;
+    .content{
+        display: flex;
+        margin-left: 50px;
+
+        .profile{
+            width: 400px;
+            height: 500px;
+            box-shadow: -5px -5px 5px var(--base-color);
+            margin-right: 20px;
+            overflow: hidden;
+            background: var(--base-color-light);
+            border-radius: 1%;
+        }
+
+        .people {
+            background: var(--base-color);
+            box-shadow: 5px -5px 5px var(--base-color-light);
+            width: 700px;
+            height: 550px;
+            padding: 20px 90px;
+            overflow: scroll;
+            border-radius: 1%;
+        }
+
+        .people::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .img {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .image {
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .who {
+        display: flex;
+        margin-left: 110px;
+    }
+
+    .who h3 {
+        margin: 5px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .who p {
+        font-weight: bold;
+        font-size: x-large;
+        margin: 5px;
+        color: #000;
+    }
+
+
+    .interest {
+        display: flex;
+        flex-wrap: wrap;
+        width: 250px;
+        // background: #000;
+        margin-left: 100px;
+        padding: 1px 0;
+
+    }
+    .interest p {
+        border:  2px solid var(--base-color);
+        color: var(--base-color);
+        font-weight: bold;
+        text-align: center;
+        border-radius: 3%;
+        margin: 5px;
+        width: max-content;
+        height: 30px;
+        transition: 1s;
+        padding: 1px 5px;
+    }
+
+    .interest p:hover {
+        background: var(--base-color);
+        color: var(--secondary-color);
+    }
+
+    .action {
+        margin-left: 100px;
+    }
+
+    #icon {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        color: var(--base-color);
+        transition: 1s;
+    }
+
+    #icon:hover {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        color: var(--base-color);
+    }
+
+    .card {
+        width: 500px;
+        height: 250px;
+        background: #fff;
+        margin: 20px;
+
+        padding: 25px 10px;
+
+        box-shadow: 5px 5px 5px var(--base-black-light);
+
+        .box {
+            display: flex;
+
+            img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .Id {
+                display: flex;
+                margin-left: 10px;
+            }
+        
+            .Id h3 {
+                margin: 5px;
+                font-weight: bold;
+                color: #000;
+            }
+        
+            .Id p {
+                font-weight: bold;
+                font-size: x-large;
+                margin: 5px;
+                color: #000;
+            }
+          }
+
+          .interests{
+            display: flex;
+            flex-wrap: wrap;
+            width: 250px;
+            padding: 1px 0;
+            margin-left: 10px;
+    
+        }
+        .interests p {
+            border:  2px solid var(--base-color);
+            color: var(--base-color);
+            font-weight: bold;
+            text-align: center;
+            border-radius: 3%;
+            margin: 5px;
+            width: max-content;
+            height: 30px;
+            transition: 1s;
+            padding: 1px 5px;
+        }
+    
+        .interests p:hover {
+            background: var(--base-color);
+            color: var(--secondary-color);
+        }
+
+        #icons {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+            color: var(--base-color);
+            transition: 0.5s;
+        }
+    
+        #icons:hover {
+            width: 30px;
+            height: 30px;
+            margin: 10px;
+            color: var(--base-color);
+        }
+        }
+
+        
+}

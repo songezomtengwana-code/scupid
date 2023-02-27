@@ -30,7 +30,8 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { GiftFilterPipe } from './pipes/gift-filter.pipe';
 import { TitleTagComponent } from './components/title-tag/title-tag.component';
 import { AccomodationComponent } from './pages/accomodation/accomodation.component';
-import { BurgerComponent } from './components/burger/burger.component'
+import { BurgerComponent } from './components/burger/burger.component';
+import { MatchComponent } from './components/match/match.component'
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { BurgerComponent } from './components/burger/burger.component'
     // GiftFilterPipe,s
     TitleTagComponent,
     AccomodationComponent,
-    BurgerComponent
+    BurgerComponent,
+    MatchComponent
   ],
   imports: [
     BrowserModule,
